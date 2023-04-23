@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@500&display=swap');
+
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Roboto Mono', monospace;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #4B0082;
+}
+.container{
+    /* border: 2px solid red; */
+    margin-top: 200px;
+    width: 600px;
+    height: 300px;
+    border-radius: 1.5rem;
+    background-color: whitesmoke;
+    box-shadow: -3px -3px  15px whitesmoke;
+}
+.timer-display{
+    /* border:2px  solid green; */
+    width: 400px;
+    height: 130px;
+    margin-top: 2rem;
+    margin-left: 7rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 1.5rem;
+    box-shadow: 1px -2px 20px rgb(41, 41, 41);
+    font-size: 2rem;
+}
+.buttons{
+    
+    margin-top: 3rem;
+    /* border: 2px solid blue; */
+}
+.start-btn{
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-left: 7rem;
+    border-radius: 1rem;
+    font-size: 20px;
+    background-color: rgb(204, 6, 204);
+    border: none;
+    color: whitesmoke;
+    box-shadow: -1px -4px 20px rgb(26, 25, 25);
+    cursor: pointer;
+}
+.stop-btn{
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-left: 5rem;
+    border-radius: 1rem;
+    font-size: 20px;
+    border: none;
+    background-color: red;
+    color: whitesmoke;
+    box-shadow: -1px -4px 20px rgb(26, 25, 25);
+    cursor: pointer;
+}
+.reset-btn{
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-left: 4rem;
+    border-radius: 1rem;
+    font-size: 20px;
+    border: none;
+    background-color: rgb(226, 226, 23);
+    color: whitesmoke;
+    box-shadow: -1px -4px 20px rgb(26, 25, 25);
+    cursor: pointer;
+}
